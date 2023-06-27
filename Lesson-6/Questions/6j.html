@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        const randomNumber = Math.random();
+        /*
+        const result = randomNumber;
+        if (result < 0.5) {
+            console.log("Heads");
+        } else {
+            console.log('Tails');
+        }
+        */
+        const result = randomNumber < 0.5 ? 'heads' : 'tail';
+
+
+        const guess = 'heads';
+        /*
+        if (guess === result) {
+            console.log('You win');
+        } else {
+            console.log('You Lose');
+        }
+        */
+        console.log(guess === result ? 'You Win' : 'You Lose');
+    </script>
+</body>
+
+</html>
